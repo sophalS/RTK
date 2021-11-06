@@ -35,3 +35,42 @@ nav ul li{
 .welcom{
     font-size: larger;
 }
+.container {
+    width: 96%;
+    background: honeydew;
+    height: 80vh;
+}
+.body {
+    display: flex;
+    padding: 0 4% ;   
+}
+h2 {
+    color: gray;
+    padding:  0 4%;
+}
+ p {
+    margin-top: 2%;
+  
+}
+.body img {
+    width: 60%;
+    border-radius: 8%;
+    height: 40vh;
+}
+.more{
+    display: flex;
+    justify-content:center;
+}
+a {
+    color:white;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 6vh;
+    text-decoration: none;
+    background: purple;
+    border-radius: 3px;
+ 
+}
