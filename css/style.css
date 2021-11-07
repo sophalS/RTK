@@ -37,7 +37,7 @@ nav ul li{
 }
 .container {
     width: 96%;
-    background: honeydew;
+    /* background: honeydew; */
     height: 80vh;
 }
 .body {
@@ -48,8 +48,9 @@ h2 {
     color: gray;
     padding:  0 4%;
 }
- p {
+.body p {
     margin-top: 2%;
+    font-size: xx-large;
   
 }
 .body img {
@@ -73,4 +74,34 @@ a {
     background: purple;
     border-radius: 3px;
  
+}
+h1{
+    color: gray;
+}
+.group{
+    display: flex;
+    width: 100%;
+}
+img{
+    width: 70px;
+    margin-top: 10px;
+}
+.logo{
+    border: 1px solid gray;
+    border-radius: 20px;
+    width: 26%;
+    height: 22vh;
+    /* background: bisque; */
+    margin: 5px;
+    text-align: center;
+    color: gray;
+}
+footer{
+    background: gray;
+    height: 20vh;
+    text-align: center;
+    margin-top: 10px;
+}
+.email{
+    padding-top: 15px;
 }
